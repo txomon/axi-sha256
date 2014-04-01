@@ -1,5 +1,5 @@
 ##############################################################################
-## Filename:          /home/javier/proyectos/master/master-dss/final/drivers/axi_sha256_sl_v1_00_a/data/axi_sha256_sl_v2_1_0.tcl
+## Filename:          drivers/axi_sha256_sl_v1_00_a/data/axi_sha256_sl_v2_1_0.tcl
 ## Description:       Microprocess Driver Command (tcl)
 ## Date:              Tue Mar  4 19:30:40 2014 (by Create and Import Peripheral Wizard)
 ##############################################################################
