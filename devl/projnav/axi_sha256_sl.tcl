@@ -1,4 +1,4 @@
-project new /home/javier/proyectos/master/master-dss/final/pcores/axi_sha256_sl_v1_00_a/devl/projnav/axi_sha256_sl.xise;
+project new devl/projnav/axi_sha256_sl.xise;
 project set family spartan6;
 project set device xc6slx45t;
 project set package fgg484;
@@ -6,8 +6,8 @@ project set speed -3;
 project set top_level_module_type HDL;
 project set synthesis_tool "XST (VHDL/Verilog)";
 lib_vhdl new axi_sha256_sl_v1_00_a;
-xfile add /home/javier/proyectos/master/master-dss/final/pcores/axi_sha256_sl_v1_00_a/hdl/vhdl/axi_sha256_sl.vhd -lib_vhdl axi_sha256_sl_v1_00_a;
-xfile add /home/javier/proyectos/master/master-dss/final/pcores/axi_sha256_sl_v1_00_a/hdl/vhdl/user_logic.vhd -lib_vhdl axi_sha256_sl_v1_00_a;
+xfile add hdl/vhdl/axi_sha256_sl.vhd -lib_vhdl axi_sha256_sl_v1_00_a;
+xfile add hdl/vhdl/user_logic.vhd -lib_vhdl axi_sha256_sl_v1_00_a;
 lib_vhdl new proc_common_v3_00_a;
 xfile add /opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd -lib_vhdl proc_common_v3_00_a;
 xfile add /opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd -lib_vhdl proc_common_v3_00_a;

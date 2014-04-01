@@ -7,7 +7,7 @@ TABLE OF CONTENTS
 ================================================================================
 Peripheral Summary:
 
-  XPS project / EDK repository               : /home/javier/proyectos/master/master-dss/final
+  XPS project / EDK repository               : .
   logical library name                       : axi_sha256_sl_v1_00_a
   top name                                   : axi_sha256_sl
   version                                    : 1.00.a
