@@ -1,0 +1,19 @@
+============
+SHA256 pcore
+============
+
+This pcore would be fantastic if I had time and real stimulus, but with the
+idea of not going too undeterministic I will try to do some stages on this.
+
+First approach
+--------------
+
+  * The pcore will use only a axi lite interface.
+     This is because I will map all input and outputs in registers
+  * The software library will do no processing for the user
+     It makes harder to know what the hell is going on. Static mapping is 
+     easier. You put the data chunk you want to process, you may also put the
+     last hash result in the input_hash, and you would get the result in
+     other registers.
+  * The drivers include a selftest app that takes the module base pointer
+     and executes tests.

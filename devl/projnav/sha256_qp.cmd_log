@@ -1,0 +1,1 @@
+vhdtdtfi -prj axi_sha256_sl -o /home/javier/proyectos/master/master-dss/final/pcores/axi_sha256_sl_v1_00_a/devl/projnav/sha256_qp.tfi -module sha256_qp -template /opt/Xilinx/14.1/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ../../hdl/vhdl/sha256.vhd 
