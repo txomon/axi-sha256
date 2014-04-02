@@ -59,7 +59,7 @@ XStatus AXI_SHA256_SL_SelfTest(void * baseaddr_p) {
 	 * We first write all the data into the input
 	 */
 
-	AXI_SHA256_SL_mWriteSlaveReg0(base, 0, (Xuint32)0x61626364);
+	AXI_SHA256_SL_mWriteSlaveReg0(base, 0, (Xuint32)0x61626380);
 	AXI_SHA256_SL_mWriteSlaveReg1(base, 0, (Xuint32)0);
 	AXI_SHA256_SL_mWriteSlaveReg2(base, 0, (Xuint32)0);
 	AXI_SHA256_SL_mWriteSlaveReg3(base, 0, (Xuint32)0);
@@ -74,7 +74,7 @@ XStatus AXI_SHA256_SL_SelfTest(void * baseaddr_p) {
 	AXI_SHA256_SL_mWriteSlaveReg12(base, 0, (Xuint32)0);
 	AXI_SHA256_SL_mWriteSlaveReg13(base, 0, (Xuint32)0);
 	AXI_SHA256_SL_mWriteSlaveReg14(base, 0, (Xuint32)0);
-	AXI_SHA256_SL_mWriteSlaveReg15(base, 0, (Xuint32)0x00000010);
+	AXI_SHA256_SL_mWriteSlaveReg15(base, 0, (Xuint32)0x00000018);
 
 	/*
 	 * We set the hash input to 0
